@@ -3,7 +3,7 @@ mod movement;
 mod spaceships;
 mod camera;
 
-use bevy::{prelude::*, diagnostic::{FrameTimeDiagnosticsPlugin, LogDiagnosticsPlugin}};
+use bevy::prelude::*;
 use debug::DebugPlugin;
 use movement::MovementPlugin;
 use spaceships::SpaceshipPlugin;
